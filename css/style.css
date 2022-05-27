@@ -1,0 +1,313 @@
+
+body {
+    background:#ebf1f5;
+    font-family:Arial, sans-serif;
+    padding:20px 0px;
+    text-align:center;
+}
+
+h2 {
+    color:#6da0ca;
+    font-size:24px;
+    font-weight:normal;
+    margin:0; padding:0;
+}
+
+h3 {
+    color:#6da0ca;
+    font-size:18px;
+    margin:0; padding:0px 0px 20px 0px;
+}
+
+p {
+    font-size:12px;
+    margin:0; padding:0px 0px 15px 0px;
+}
+
+th {
+    color:#6da0ca;
+    font-size:18px;
+    font-weight:normal;
+    margin:0; padding:0px 0px 0px 0px;
+}
+
+td {
+    vertical-align:middle
+}
+
+td.label {
+    color:#6da0ca;
+    font-weight:bold;
+}
+
+td.align-top-right {
+    vertical-align:top;
+    text-align:right;
+}
+
+span.small {
+    font-size:11px;
+}
+
+h2.padded {
+    padding:10px 0px 20px 0px;
+}
+
+h2.center-big {
+    font-size:34px;
+    font-weight:bold;
+    text-align: center;
+    padding:200px 0px 200px 0px;
+}
+
+div#signup_hold {
+
+    background:#fff;
+    border:1px solid #9fc3d9;
+    margin:0 auto;
+    text-align:left;
+    width:800px;
+}
+
+div.padding {
+    padding:20px;
+}
+
+div#header {
+    border-bottom:1px dotted #e6e6e6;
+    padding:20px;
+}
+
+div#header_logos {
+    float:right;
+    display:block;
+    padding-top:10px;
+    width:270px;
+    text-align:right;
+    vertical-align:top;
+}
+
+div#header_logos img {
+    width:100px;
+    vertical-align:middle;
+}
+
+div#header_logo {
+    float:right;
+    display:block;
+    width:150px;
+    text-align:right;
+    vertical-align:top;
+}
+
+div#header_logo img {
+    width:150px;
+    vertical-align:middle;
+}
+
+
+div#logo {
+    float:right;
+    display:block;
+    width:100px;
+    text-align:right;
+    vertical-align:top;
+}
+
+div#logo img {
+    width:100px;
+    vertical-align:middle;
+}
+
+div#half {
+    float:left;
+    width:396px;
+    font-size:12px;
+}
+
+div#half table {
+    padding:0px 20px 20px 20px; margin:0;
+}
+
+div.terms-scrollbox {
+    height:100px;
+    width:530px;
+    padding:5px;
+    text-align:left;
+    border-width:1px;
+    border-style:solid;
+    border-color:#9fc3d9;
+    overflow:scroll;
+}
+
+
+/* ==============================================
+FORMS
+============================================== */
+
+form {
+    padding:20px 0px 0px 0px; margin:0;
+}
+
+fieldset {
+    border:0;
+    font-size:12px;
+    padding:0px 20px 20px 20px; margin:0;
+}
+
+legend {
+    color:#6da0ca;
+    font-size:18px;
+    margin:0; padding:0px 0px 20px 0px;
+}
+
+label {
+    display:block;
+    font-size:12px;
+    font-weight:bold;
+    padding-bottom:5px;
+}
+
+input, select, checkbox {
+    margin-bottom:15px;
+    padding:2px;
+}
+
+input.long {
+    width:200px;
+}
+
+div#form_action {
+    background:#fafafa;
+    border-top:1px solid #e6e6e6;
+    display:block;
+    padding:20px;
+}
+
+.form-error {
+    width:80%;
+    text-align:left;
+    font-weight:bold;
+    line-height:1.1em;
+    color:red;
+}
+
+
+/* ==============================================
+PROGRESS BAR
+============================================== */
+div#progress_bar {
+    display:block;
+    height:22px;
+    padding-top:10px;
+    width:480px;
+}
+
+div#bar_step {
+    color:#2e2e2e;
+    display:block;
+    float:left;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    height:22px;
+    line-height:22px;
+    width:100px;
+}
+
+div#bar_progression {
+    background:url(../img/blueTheme/bar_background.gif) no-repeat #e6e6e6;
+    display:block;
+    float:left;
+    height:21px;
+    padding-top:1px;
+    width:280px;
+}
+
+div#bar_progression span {
+    background:url(../img/blueTheme/bar_shade.gif) repeat-x #74a4ca;
+    display:block;
+    height:20px;
+}
+
+div.captcha {
+    border:1px solid #9fc3d9;
+    margin:0px;
+    padding:10px;
+    width:530px;
+}
+
+/* ==============================================
+BUTTON
+============================================== */
+button.dossia_button {
+    background:url('../../img/blueTheme/button.gif') no-repeat;
+    border:0;
+    font-weight:bold;
+    height:32px;
+    padding:0px 10px; margin:0;
+    text-align:left;
+    width:180px;
+}
+
+button.dossia_button:hover {
+    background:url('../../img/blueTheme/button_hover.gif') no-repeat;
+}
+
+button.dossia_button span#next {
+    background:url('../../img/blueTheme/next.png') no-repeat center right;
+    display:block;
+}
+
+.errorMessage {
+    color:red;
+    list-style-type: none;
+    list-style-position:outside;
+    margin-left:0px;
+    padding-left:0px;
+}
+
+img {
+    border: none;
+}
+
+table.customerSupport {
+    padding-top:10px;
+}
+.customerSupport {
+    padding-right:20px;
+    vertical-align:top;
+}
+
+.reqd:before {
+    color: red;
+    content: "*";
+    margin-right:5px;
+}
+
+div.hideOnMobile {
+    margin:0;
+    padding:0;
+}
+
+div.optin {
+    padding:30px 20px 20px 20px;
+}
+
+div.optin p {
+    font-size: 16px;
+}
+
+div.optin fieldset {
+    padding:0px; 
+}
+
+div.optin legend {
+    margin:0; padding:0px;
+}
+
+div.optin input, 
+div.optin select, 
+div.optin checkbox {
+    margin-left:0px;
+}
